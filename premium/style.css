@@ -1,0 +1,31 @@
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    margin-right: 10px;
+}
+.tab:last-child {
+    margin-right: 0;
+}
+.tabs-container {
+    display: flex;
+}
+.tab-content {
+    display: none;
+    border: 1px solid #aaa;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+.tab-content.active {
+    display: block;
+}
+body{
+    background-image: url('light-blue.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+
+}

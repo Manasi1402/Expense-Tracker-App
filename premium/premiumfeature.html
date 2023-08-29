@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tab Example</title>
+</head>
+<body>
+  <div class="tabs-container">
+    <div class="tab" onclick="showTab('daily')">Daily expenses</div>
+    <div class="tab" onclick="showTab('weekly')">Monthly expenses</div>
+    <div class="tab" onclick="showTab('monthly')">Yearly expenses</div>
+  </div>
+
+  <div id="daily" class="tab-content">
+    Content for Tab 1 goes here.
+    <div>
+      <button class="button"> Download</button>
+    </div>
+  </div>
+  <div id="weekly" class="tab-content">
+    Content for Tab 2 goes here.
+    <div>
+      <button class="button"> Download</button>
+    </div>
+    
+  </div>
+  <div id="monthly" class="tab-content">
+    Content for Tab 3 goes here.
+    <div>
+      <button class="button"> Download</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
